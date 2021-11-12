@@ -1,0 +1,363 @@
+html{
+    scroll-behavior: smooth;
+}
+
+#title{
+    background-attachment: fixed;
+
+}
+
+
+.logo{
+    width: 100px;
+    text-shadow:2px 2px darkslategrey;
+    box-shadow: dimgrey;
+    /* position:relative;
+    z-index: 1; */
+}
+
+.carousel-item {
+    height: 100vh;
+    min-height: 300px;
+    background: no-repeat center center fixed;
+    background-size: cover;
+}
+
+.carousel-caption {
+     bottom: 45%; 
+
+} 
+
+.carousel-caption h3 {
+    font-size: 3rem;
+    line-height: 3rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin: 1rem;
+    text-shadow:black 0.25rem 0.25rem 0.35rem;
+    margin: auto auto 0.25rem auto;
+    font-family: 'Lobster', cursive;
+    color: #f4eeff;
+
+}
+
+.carousel-caption p {
+    width: 60%;
+    margin: auto;
+    font-size: 25px;
+    letter-spacing: 2px;
+    line-height: 2rem;
+    text-shadow: black 0.25rem 0.25rem 0.35rem;
+    font-family: 'Kanit', sans-serif;
+    ;
+}
+
+.navbar.scrolled{
+    background-color: #343a40;
+}
+.logo.scrolled{
+    width: 50px;
+}
+
+.navbar-light .navbar-nav .nav-link.scrolled{
+    background-color: transparent;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color:rgb(221, 212, 230);
+    text-transform: uppercase;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 1rem;
+    padding: 0 1rem;
+    font-family: 'Kanit', sans-serif;
+    font-size: 1rem;
+    
+    
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color:white;
+background: rgba(0, 0, 0, 0.3);
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover{
+    color: rgb(221, 212, 230);;
+}
+
+.navbar .navbar-brand {
+    color: #fff;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.logo{
+    filter: drop-shadow(3px 7px 4px #000);
+}
+
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link{
+    color: #fff;
+}
+
+.nav-link{
+    padding: .6rem 1rem;
+}
+
+.w-100{
+    height: 100vh;
+}
+
+
+
+
+/* About */
+
+#about{
+    padding:3rem ;
+    text-align: center;
+}
+
+
+.about{
+    font-family: 'Patua One', cursive;
+    margin-top: 1.5rem ;
+    margin-bottom: 2rem;
+}
+
+#about h2, #about h3{
+    font-family: 'Kanit', sans-serif;
+}
+
+#about .card-title{
+    font-family: 'Concert One', cursive;
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+#about .card-text{
+    font-family: 'Acme', sans-serif;
+    font-size: 1.2rem;
+}
+
+
+#about .card-body{
+    height: 18rem;
+}
+
+
+
+
+/* menu */
+.special{
+    text-align: center;
+    padding:2rem 0rem 2rem;
+
+}
+
+#menu h3{
+    text-align: center;
+}
+
+#menu{
+    background-color: #204051;
+}
+
+#menu h1, #menu h2{
+    font-family: 'Patua One', cursive;
+    text-transform: uppercase;
+    color: #f4eeff;
+    text-align: center;
+    letter-spacing: 1.5px;
+}
+
+
+
+
+.card{
+    width:100%;
+    border-radius:1.5rem ;
+    margin-top: 2rem;
+    
+}
+
+.memu-img{
+    width: 100%;
+    height:100%;
+    padding-right: 10px;
+}
+
+.card-img-top{
+    height: 18rem;
+    border-radius:1.5rem;
+}
+
+.menu-container{
+    text-align: center;
+    margin: 2rem 3rem;
+    padding: 2.5rem;
+}
+
+#menu .card-title{
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 1000;
+    color: #212529;
+    text-transform: capitalize;
+}
+
+#menu .card-text{
+    font-family: 'Acme', sans-serif;
+    text-transform: capitalize;
+    font-size: 1.16rem;
+}
+
+
+
+
+/* Membership */
+
+#membership{
+    padding: 5%;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.membership-column{
+    padding: 3%;
+}
+
+.membership-btn{
+    margin-top:55px;
+}
+
+#membership h1{
+    font-family: 'Patua One', cursive;
+    text-transform: uppercase;
+}
+
+#membership p{
+    font-family: 'Kanit', sans-serif;
+    margin-top: 10px;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+#membership .card-title, #membership h3{
+    font-family: 'Concert One', cursive;
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+#membership .card-body{
+    font-family: 'Acme', sans-serif;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+}
+
+
+
+/* footer */
+
+#footer-sec{
+    
+        
+
+    background-color:#464646;
+    position: absolute;
+    width: 100%;
+    height:70%;
+    margin-right: 2rem;
+
+
+    background-image: url("images/footer.jpg");
+    text-align: center;
+        
+    background-position: center center;
+        
+        
+    background-repeat: no-repeat;
+        
+     
+    background-attachment: fixed;
+        
+        
+    background-size: 100% 70%;
+        
+        
+    background-color:white;
+    position: absolute;
+    width: 100%;
+    height:70%;
+    margin-right: 2rem;
+        
+
+}
+
+.footer-icon{
+    margin: 1rem;
+    padding: 10px;
+    font-size: 2rem;
+    /* color:#343a40; */
+    color:rgb(221, 212, 230);
+    border-radius: 1rem;
+    background:rgba(0,0,0, 0.2)
+}
+.footer-icon:hover{
+    color: black;
+} 
+
+
+
+
+.footer-icon-div{
+    padding-top:30% ;
+    text-align: right;
+}
+
+.copyright{
+    text-align: center;
+    font-family: 'Acme', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+@media only screen and (max-width:996px){
+    .navbar-nav.ml-auto{
+        background: rgba(0, 0, 0, 0.6);
+    }
+    .navbar-toggler{
+        padding: 10px 5px;
+        font-size: 1.15rem;
+        text-align: right; 
+        line-height: 0.3;
+        background: #f4eeff;
+    }
+    .navbar-toggler:hover{
+        background: #3b6978;
+    }
+    .navbar-nav.ml-auto.scrolled{
+        background: none;
+    }
+}
+
+@media (max-width:760px){
+    .footer-icon-div{
+        padding-top: 50%;
+    }
+
+    .copyright{
+        text-align: center;
+    font-family: 'Acme', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    padding-top: 2rem;
+    }
+}
